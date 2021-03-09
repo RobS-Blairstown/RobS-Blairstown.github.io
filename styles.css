@@ -1,0 +1,24 @@
+.navbar-light .navbar-brand {
+    color:black;
+}
+
+.background-color {
+    color: rgb(33, 19, 230);
+}
+
+.vert-photo {
+    width: 20rem;
+    height: auto;
+}
+  
+.robscustomautocenter {
+    margin: auto;
+    width: 50%;
+    border: 3px green;
+    padding: 10px;
+}
+
+body{
+    background-color:rgb(33, 19, 230);
+    color: black;
+}
