@@ -77,3 +77,9 @@ input[type=text], select, textarea {
     clear: both;
     display: table;
   }
+
+  .white_bg 
+{
+    background-color: #413e3e;
+    padding: 3px; /*add this if you want a bit of space around the text*/
+}
