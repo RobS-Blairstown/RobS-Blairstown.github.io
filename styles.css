@@ -2,23 +2,78 @@
     color:black;
 }
 
-.background-color {
-    color: rgb(33, 19, 230);
+.silvertextcolor {
+    color: silver;
 }
 
 .vert-photo {
-    width: 20rem;
+    width: 15rem;
     height: auto;
 }
   
+
 .robscustomautocenter {
     margin: auto;
     width: 50%;
-    border: 3px green;
     padding: 10px;
 }
 
 body{
-    background-color:rgb(33, 19, 230);
-    color: black;
+    background-image: url("luca-bravo-XJXWbfSo2f0-unsplash.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.textcolor{
+    color:black;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(7, 7, 7); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:green;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #0303035e;
+    padding: 20px;
+  }
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
