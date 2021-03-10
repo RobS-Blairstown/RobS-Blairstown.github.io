@@ -60,7 +60,7 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #0303035e;
+    background-color: #000000b0;
     padding: 20px;
   }
 
@@ -80,6 +80,6 @@ input[type=text], select, textarea {
 
   .white_bg 
 {
-    background-color: #413e3e;
+    background-color: #000000b0;
     padding: 3px; /*add this if you want a bit of space around the text*/
 }
